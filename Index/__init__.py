@@ -1,7 +1,6 @@
 import functions
 import time
 
-
 now = time.strftime("%b %d, %y %H:%M:%S")
 print("It is", now)
 
@@ -56,7 +55,6 @@ while True:
 
             functions.write_todos(todos)
 
-
             message = f"todo {todo_to_remove} was removed from the list."
             print(message)
         except IndexError:
@@ -68,4 +66,3 @@ while True:
 
     else:
         print("Command is not valid.")
-
